@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Lists</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://lea.verou.me/wp-content/themes/elegant/style.css" />
+<link rel="stylesheet" href="https://get.mavo.io/stable/mavo.min.css">
+<script src="https://get.mavo.io/stable/mavo.es5.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main mv-app class="talks" mv-plugins="gsheets" mv-storage="https://docs.google.com/spreadsheets/d/12TPuu-Pa550x2TcRhy918DIhqt9OExrdePIKVULjVnc/edit?usp=sharing" mv-storage-sheet="Sheet1" >
+	<h1>[count(event)] elemento </h1>
+	<article mv-multiple property="event" mv-order="desc">	
+		<h2>		
+			<span property="link"></span>
+		</h2>
+		<h2>
+			<span property="gsheet"></span>
+		</h2>
+		<p class="date"><span property="fecha"></span></p>
+		<p property="nombre"></p>
+    	<nobr><p property="telefono"></p></nobr>
+		<p property="direccion"></p>
+		<p property="credencial"></p>
+		<p property="seccion"></p>
+		<p property="correo"></p>
+		<p property="coordenadas"></p>
+		<p property="peticion"></p>
+		<p property="proposicion"></p>
+		<p property="consulta"></p>
+		<p property="denuncia"></p>
+		<p property="nota"></p>
+		<p property="extras"></p>
+	</article>
+</main>
+</body>
+</html>
